@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuentes generales y body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Color de fondo general (pie y advertencia usan este mismo tono) */
+    color: #333;
+  }
+  
+  /* Encabezado */
+  .header {
+    background-color: #00A3E0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  }
+  .nav-logo {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Contenido Principal */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    width: 400px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulario */
+  .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+  }
+  
+  /* Botón y enlace de acciones */
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .btn-continuar {
+    background-color: #00A3E0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .enlace-cuenta {
+    color: #00A3E0;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Advertencia de Seguridad */
+  .security-alert {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .security-alert .icono {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Enlace de Ayuda */
+  .help-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .help-link a {
+    color: #00A3E0;
+    text-decoration: none;
+  }
+  
+  /* Pie de Página */
+  .footer {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  .footer a {
+    color: #00A3E0;
+    text-decoration: none;
+  }
+  
